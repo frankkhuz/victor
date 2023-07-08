@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(185, 75%, 39%) ;
+}
+.container{
+    width:100%;
+    height:100vh ;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 600px;
+    /* height: 00px; */
+    /* border: 2px solid white; */
+    border-radius: 16px;
+    background-color: white;
+}
+.top{
+    /* border: 2px solid red; */
+    border-top-right-radius:  16px;
+    border-top-left-radius:  16px;
+    position: relative;
+}
+.top img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-top-right-radius:  16px;
+    border-top-left-radius:  16px;
+}
+ .victor{
+position: absolute;
+width: 130px;
+height: 130px;
+border: 7px solid white;
+left: 50%;
+transform: translateX(-50%);
+bottom:-30%;
+border-radius:50%;
+
+}
+.victor img{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+   
+} 
+.middle{
+    /* border: 2px solid yellow; */
+    padding: 70px 0 20px 0;
+}
+.middle  p{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+color: black;
+}
+.middle p span{
+    color: hsl(0, 0%, 59%);
+    font-weight: 500;
+}
+.london{
+    color: hsl(0, 0%, 59%);
+    font-weight: 100;
+    text-align: center;
+    font: optional;
+}
+/* .one{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    
+}
+.two{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.three{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+} */
+.flex{
+    border-top: 0.5px solid gray;
+    display: flex;
+    justify-content: space-around;
+    margin-top:2rem;
+}
+.flex > *{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid black; */
+}
+.flex h6{
+    text-align:center;
+    font-size: 1rem;
+}
